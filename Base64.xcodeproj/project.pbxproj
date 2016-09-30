@@ -7,30 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DA2A7C3158CC3EB00A9516B /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2A7C0158CC3EB00A9516B /* MF_AppDelegate.m */; };
-		0DA2A7C4158CC3EB00A9516B /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2A7C2158CC3EB00A9516B /* MF_Base64Additions.m */; };
-		0DA2A7CB158CC40700A9516B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA2A7C9158CC40700A9516B /* MainMenu.xib */; };
-		0DA2A7D0158CC41700A9516B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2A7CE158CC41700A9516B /* main.m */; };
-		0DA2A7D6158CC43500A9516B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DA2A7D2158CC43500A9516B /* Credits.rtf */; };
-		0DA2A7D7158CC43500A9516B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DA2A7D4158CC43500A9516B /* InfoPlist.strings */; };
-		0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDF90E6158A1A0F00D44611 /* Cocoa.framework */; };
 		1A36B0271D9F13C300F0C5DA /* Base64Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A36B0251D9F13C300F0C5DA /* Base64Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A36B02B1D9F14A400F0C5DA /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA2A7C1158CC3EB00A9516B /* MF_Base64Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A36B02C1D9F14AB00F0C5DA /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2A7C2158CC3EB00A9516B /* MF_Base64Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DA2A7BF158CC3EB00A9516B /* MF_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MF_AppDelegate.h; path = Base64/MF_AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		0DA2A7C0158CC3EB00A9516B /* MF_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MF_AppDelegate.m; path = Base64/MF_AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		0DA2A7C1158CC3EB00A9516B /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MF_Base64Additions.h; path = Base64/MF_Base64Additions.h; sourceTree = SOURCE_ROOT; };
 		0DA2A7C2158CC3EB00A9516B /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MF_Base64Additions.m; path = Base64/MF_Base64Additions.m; sourceTree = SOURCE_ROOT; };
-		0DA2A7CA158CC40700A9516B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Base64/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
 		0DA2A7CC158CC41700A9516B /* Base64-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Base64-Info.plist"; path = "Base64/Base64-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0DA2A7CD158CC41700A9516B /* Base64-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Base64-Prefix.pch"; path = "Base64/Base64-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		0DA2A7CE158CC41700A9516B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Base64/main.m; sourceTree = SOURCE_ROOT; };
 		0DA2A7D3158CC43500A9516B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Base64/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
 		0DA2A7D5158CC43500A9516B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Base64/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		0DDF90E2158A1A0F00D44611 /* Base64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base64.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDF90E6158A1A0F00D44611 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0DDF90E9158A1A0F00D44611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0DDF90EA158A1A0F00D44611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -41,14 +29,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DDF90DF158A1A0F00D44611 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1A36B01F1D9F13C300F0C5DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,7 +52,6 @@
 		0DDF90E3158A1A0F00D44611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF90E2158A1A0F00D44611 /* Base64.app */,
 				1A36B0231D9F13C300F0C5DA /* Base64Framework.framework */,
 			);
 			name = Products;
@@ -100,11 +79,8 @@
 		0DDF90EC158A1A0F00D44611 /* Base64 */ = {
 			isa = PBXGroup;
 			children = (
-				0DA2A7BF158CC3EB00A9516B /* MF_AppDelegate.h */,
-				0DA2A7C0158CC3EB00A9516B /* MF_AppDelegate.m */,
 				0DA2A7C1158CC3EB00A9516B /* MF_Base64Additions.h */,
 				0DA2A7C2158CC3EB00A9516B /* MF_Base64Additions.m */,
-				0DA2A7C9158CC40700A9516B /* MainMenu.xib */,
 				0DDF90ED158A1A0F00D44611 /* Supporting Files */,
 			);
 			name = Base64;
@@ -116,7 +92,6 @@
 			children = (
 				0DA2A7CC158CC41700A9516B /* Base64-Info.plist */,
 				0DA2A7CD158CC41700A9516B /* Base64-Prefix.pch */,
-				0DA2A7CE158CC41700A9516B /* main.m */,
 				0DA2A7D2158CC43500A9516B /* Credits.rtf */,
 				0DA2A7D4158CC43500A9516B /* InfoPlist.strings */,
 			);
@@ -147,23 +122,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DDF90E1158A1A0F00D44611 /* Base64 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base64" */;
-			buildPhases = (
-				0DDF90DE158A1A0F00D44611 /* Sources */,
-				0DDF90DF158A1A0F00D44611 /* Frameworks */,
-				0DDF90E0158A1A0F00D44611 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Base64;
-			productName = Base32;
-			productReference = 0DDF90E2158A1A0F00D44611 /* Base64.app */;
-			productType = "com.apple.product-type.application";
-		};
 		1A36B0221D9F13C300F0C5DA /* Base64Framework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A36B02A1D9F13C300F0C5DA /* Build configuration list for PBXNativeTarget "Base64Framework" */;
@@ -189,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					1A36B0221D9F13C300F0C5DA = {
@@ -210,23 +168,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDF90E1158A1A0F00D44611 /* Base64 */,
 				1A36B0221D9F13C300F0C5DA /* Base64Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DDF90E0158A1A0F00D44611 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DA2A7CB158CC40700A9516B /* MainMenu.xib in Resources */,
-				0DA2A7D6158CC43500A9516B /* Credits.rtf in Resources */,
-				0DA2A7D7158CC43500A9516B /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1A36B0211D9F13C300F0C5DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -237,16 +184,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DDF90DE158A1A0F00D44611 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DA2A7C3158CC3EB00A9516B /* MF_AppDelegate.m in Sources */,
-				0DA2A7C4158CC3EB00A9516B /* MF_Base64Additions.m in Sources */,
-				0DA2A7D0158CC41700A9516B /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1A36B01E1D9F13C300F0C5DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0DA2A7C9158CC40700A9516B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DA2A7CA158CC40700A9516B /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		0DA2A7D2158CC43500A9516B /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +223,9 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -332,7 +263,9 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -353,32 +286,6 @@
 			};
 			name = Release;
 		};
-		0DDF9101158A1A1000D44611 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Base64/Base64-Prefix.pch";
-				INFOPLIST_FILE = "Base64/Base64-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Base64;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		0DDF9102158A1A1000D44611 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Base64/Base64-Prefix.pch";
-				INFOPLIST_FILE = "Base64/Base64-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Base64;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		1A36B0281D9F13C300F0C5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,7 +299,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -429,7 +336,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -463,15 +370,6 @@
 			buildConfigurations = (
 				0DDF90FE158A1A1000D44611 /* Debug */,
 				0DDF90FF158A1A1000D44611 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base64" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DDF9101158A1A1000D44611 /* Debug */,
-				0DDF9102158A1A1000D44611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
